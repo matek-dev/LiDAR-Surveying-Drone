@@ -1,0 +1,10 @@
+[Unit]
+Description=LiDAR Mapping
+After=network.target
+
+[Service]
+Type=Simple
+ExecStart=/home/matekdev/Desktop/LiDAR_Mapping
+
+[Install]
+WantedBy=multi-user.target
